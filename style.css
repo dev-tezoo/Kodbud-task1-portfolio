@@ -18,7 +18,7 @@ body{
 }   
 
 nav{
-    background-color: #232323;
+    background-color: #494949;
     padding-left: 4rem;
     padding-bottom: 2rem;
     padding-top: 2rem;
@@ -41,16 +41,34 @@ nav{
 
 .links-icon{
     width: 2rem;
-    height: 2rem;
+    height: 3rem;
     margin-right: 4rem;
+}
+.arrow-up{
+    width: 2rem;
+    height: 3rem;
+    margin-right: 4rem;
+    display: none;
 }
 
 .link-tab{
     height: 90vh;
     width: 10vw;
-    background: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #494949;
     position: absolute;
     right: 0;
-    top: 100%;
-    padding: 6rem 3rem;
+    top: -900%;
+    transition: all 0.5s ease;
+    padding-top: 50px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 70px;
+    width: 70px;
 }

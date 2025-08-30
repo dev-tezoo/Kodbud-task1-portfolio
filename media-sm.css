@@ -1,0 +1,42 @@
+
+@media (max-width: 640px) {
+
+
+    nav{
+    padding-left: 1rem;
+}
+
+.nav-left{
+    font-size: 1.1rem;
+}
+
+.links-icon{
+    margin-right: 1rem;
+}
+
+.links-icon{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+    .link-tab {
+        width: 30vw;
+        height: 90vh;
+        padding: 2rem;
+    }
+
+  .links{
+    height: 3rem;
+    width: 3rem;
+    gap: 2rem;
+}
+
+.arrow-up{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    display: none;
+}
+
+}
