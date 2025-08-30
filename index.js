@@ -25,6 +25,9 @@ night = document.querySelector('.night')
 body = document.querySelector('body')
 page1Text = document.querySelector('.p1')
 page1Text2 = document.querySelector('.p2')
+card1 = document.querySelector('.page2-content')
+card2 = document.querySelector('.page2-projects')
+card3 = document.querySelector('.skill')
 
 day.addEventListener('click', () => {
     body.style.backgroundColor = '#ffffff'
@@ -33,6 +36,9 @@ day.addEventListener('click', () => {
     night.style.display = 'block'
     page1Text.style.color = '#414141'
     page1Text2.style.color = '#414141'
+    card1.style.backgroundColor = '#4e4e4eff'
+    card2.style.backgroundColor = '#4e4e4eff'
+    card3.style.backgroundColor = '#4e4e4eff'
 })
 
 night.addEventListener('click', () => {
@@ -40,6 +46,11 @@ night.addEventListener('click', () => {
     body.style.color = '#ffffff'
     night.style.display = 'none'
     day.style.display = 'block'
+    page1Text.style.color = '#7e7e7eff'
+    page1Text2.style.color = '#7e7e7eff'
+    card1.style.backgroundColor = '#000000'
+    card2.style.backgroundColor = '#000000'
+    card3.style.backgroundColor = '#000000'
 })
 
 

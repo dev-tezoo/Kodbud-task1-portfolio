@@ -76,7 +76,7 @@ nav{
     position: absolute;
     right: 0;
     top: -900%;
-    transition: all 0.5s ease;
+    transition: all 0.7s ease-in-out;
     padding-top: 50px;
 }
 
@@ -126,7 +126,7 @@ nav{
 .page1-right p{
     font-size: 1.2rem;
     line-height: 1.5;
-    color: #c4c2c2;
+    color: #7e7e7eff;
 }
 .page1-right h3{
     margin-top: 30px;
@@ -145,8 +145,9 @@ nav{
     width: 85vw;
     margin-top: 10vh;
     padding: 5vh;
-    box-shadow: 0px 9px 5px rgba(120, 120, 120, 0.5);
+    box-shadow: 0px -10px 5px rgba(102, 102, 102, 0.5);
     border-radius: 30px;
+    transition: all ease-out 0.5s;
 
 }
 
@@ -175,7 +176,7 @@ nav{
 .page2-body{
     font-size: 1.2rem;
     line-height: 1.5;
-    color: #414141;
+    color: #c4c2c2;
 }
 .page2-body span{
     font-weight: bold;
