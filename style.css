@@ -1,6 +1,6 @@
 @font-face {
     font-family: font1;
-    src: url(/file2.woff2);
+    src: url(/source/file2.woff2);
 }
 
 *{
@@ -18,15 +18,39 @@ body{
 }   
 
 nav{
-    background-color: #363636;
-    padding: 1rem 4rem;
+    background-color: #232323;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
 }
 
-.nav-right{
+.nav-left{
     font-size: 1.8rem;
 }
 
-nav-right svg{
+.nav-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links-icon{
+    width: 2rem;
     height: 2rem;
+    margin-right: 4rem;
+}
+
+.link-tab{
+    height: 90vh;
+    width: 10vw;
+    background: #232323;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 6rem 3rem;
 }
