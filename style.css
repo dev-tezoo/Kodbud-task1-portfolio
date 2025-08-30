@@ -1,0 +1,32 @@
+@font-face {
+    font-family: font1;
+    src: url(/file2.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    font-family: font1;
+}   
+
+nav{
+    background-color: #363636;
+    padding: 1rem 4rem;
+    height: 10vh;
+}
+
+.nav-right{
+    font-size: 1.8rem;
+}
+
+nav-right svg{
+    height: 2rem;
+}
