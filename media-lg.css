@@ -1,0 +1,33 @@
+@media (max-width: 1024px) {
+
+
+#page1{
+    gap: 20px;
+}
+
+.page1-left{
+    height: 300px;
+    width: 65%;
+}
+
+.page1-right{
+    height: 500px;
+    width: 100%;
+    padding: 5px;
+}
+
+.page1-right h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.page1-right p{
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #a09f9f;
+}
+.page1-right h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+}

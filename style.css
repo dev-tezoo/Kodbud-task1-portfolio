@@ -18,6 +18,7 @@ body{
 }   
 
 nav{
+    position: fixed;
     background-color: #494949;
     padding-left: 4rem;
     padding-bottom: 2rem;
@@ -26,7 +27,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
+    position: sticky;
+    top: 0;
 }
 
 .nav-left{
@@ -71,4 +73,50 @@ nav{
     gap: 30px;
     height: 70px;
     width: 70px;
+}
+
+
+/* ______________________________________________________________ */
+
+#page1{
+    height: 80vh;
+    width: 90vw;
+    margin: 5vh 5vw;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.page1-left{
+    border: solid;
+    height: 350px;
+    width: 25%;
+    border-radius: 50%;
+}
+
+.page1-left img{
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+.page1-right{
+    height: 500px;
+    width: 60%;
+    padding: 65px;
+}
+
+.page1-right h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.page1-right p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #a09f9f;
+}
+.page1-right h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
